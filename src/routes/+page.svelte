@@ -3,6 +3,10 @@
 </script>
 
 <svelte:head>
+	<meta
+		name="description"
+		content="A list of the Persian poetic meters, drawn from Wheeler M. Thackston's textbook"
+	/>
 	<title>The Persian Meters</title>
 </svelte:head>
 
