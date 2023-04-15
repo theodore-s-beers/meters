@@ -7,6 +7,7 @@
 		name="description"
 		content="A list of the Persian poetic meters, drawn from Wheeler M. Thackston's textbook"
 	/>
+	<meta property="og:image" content="https://www.theobeers.com/meters/og.jpg" />
 	<title>The Persian Meters</title>
 </svelte:head>
 
