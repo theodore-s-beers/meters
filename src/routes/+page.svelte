@@ -9,6 +9,7 @@
 	/>
 	<meta property="og:image" content="https://www.theobeers.com/meters/og.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="The Persian Meters" />
 	<title>The Persian Meters</title>
 </svelte:head>
 
