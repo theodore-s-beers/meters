@@ -15,15 +15,20 @@
 
 <h1 class="mb-1 text-3xl">The Persian Meters</h1>
 
-<p class="mb-4"><em>after Thackston’s list</em></p>
+<p class="mb-4 ml-6 text-xl">after Thackston’s list</p>
+
+<p class="mb-4"><em>Syllables should be read left-to-right.</em></p>
 
 <p class="mb-5">
-	Syllables should be read left to right! (There will eventually be an option to reverse this.)
+	<span class="font-semibold">Starts with:</span>
+	<a href="#9" class="text-blue-800 hover:underline">sh-lo</a>;
+	<a href="#26" class="text-blue-800 hover:underline">lo-sh</a>;
+	<a href="#53" class="text-blue-800 hover:underline">lo-lo</a>
 </p>
 
 <div class="space-y-6">
 	{#each meters as meter, i}
-		<div>
+		<div id={String(i + 1)}>
 			<div class="-mb-0.5 flex items-center">
 				<div class="w-9">{i + 1}.</div>
 
