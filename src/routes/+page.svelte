@@ -43,11 +43,11 @@
 				</div>
 			</div>
 
-			<div class="ml-9 font-scheherazade text-2xl">{meter.feetFa.join(' ')}</div>
+			<div class="ml-9 font-markazi text-2xl">{meter.feetFa.join(' ')}</div>
 
 			<div class="my-0.5 ml-9"><em>{meter.nameLat}</em></div>
 
-			<div class="ml-9 font-scheherazade text-2xl">{meter.nameFa}</div>
+			<div class="ml-9 font-markazi text-2xl">{meter.nameFa}</div>
 		</div>
 	{/each}
 </div>

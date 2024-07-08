@@ -5,8 +5,8 @@ export default {
 		extend: {},
 		fontFamily: {
 			gentium: ['"Gentium Plus"', 'serif'],
-			noto: ['"Noto Serif"', 'serif'],
-			scheherazade: ['"Markazi Text"', 'serif']
+			markazi: ['"Markazi Text"', 'serif'],
+			noto: ['"Noto Serif"', 'serif']
 		}
 	},
 	plugins: []
