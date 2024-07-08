@@ -29,7 +29,7 @@
 <div class="space-y-6">
 	{#each meters as meter, i}
 		<div id={String(i + 1)}>
-			<div class="-mb-0.5 flex items-center">
+			<div class="flex items-center">
 				<div class="w-9">{i + 1}.</div>
 
 				<div class="flex space-x-2 font-gentium">
@@ -43,9 +43,11 @@
 				</div>
 			</div>
 
-			<div class="ml-9"><em>{meter.nameLat}</em></div>
+			<div class="ml-9 font-scheherazade text-2xl">{meter.feetFa.join(' ')}</div>
 
-			<div class="ml-9 font-scheherazade text-xl">{meter.nameFa}</div>
+			<div class="my-0.5 ml-9"><em>{meter.nameLat}</em></div>
+
+			<div class="ml-9 font-scheherazade text-2xl">{meter.nameFa}</div>
 		</div>
 	{/each}
 </div>

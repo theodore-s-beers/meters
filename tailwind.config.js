@@ -6,7 +6,7 @@ export default {
 		fontFamily: {
 			gentium: ['"Gentium Plus"', 'serif'],
 			noto: ['"Noto Serif"', 'serif'],
-			scheherazade: ['"Scheherazade New"', 'serif']
+			scheherazade: ['"Markazi Text"', 'serif']
 		}
 	},
 	plugins: []
