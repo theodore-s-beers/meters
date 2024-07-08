@@ -33,10 +33,10 @@
 				<div class="w-9">{i + 1}.</div>
 
 				<div class="flex space-x-2 font-gentium">
-					{#each meter.feet as foot, j}
+					{#each meter.feetLat as foot, j}
 						<div class="relative top-1.5 text-3xl">{foot}</div>
 
-						{#if j + 1 < meter.feet.length}
+						{#if j + 1 < meter.feetLat.length}
 							<div class="text-2xl">|</div>
 						{/if}
 					{/each}
