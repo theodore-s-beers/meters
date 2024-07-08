@@ -17,7 +17,12 @@
 
 <p class="mb-4 ml-6 text-xl">after Thackston’s list</p>
 
-<p class="mb-4"><em>Syllables should be read left-to-right.</em></p>
+<p class="mb-4">
+	<em
+		>Syllables in “dashes and scoops” should be read left-to-right. The Persian notation is, of
+		course, right-to-left.</em
+	>
+</p>
 
 <p class="mb-5">
 	<span class="font-semibold">Starts with:</span>
