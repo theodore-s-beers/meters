@@ -43,7 +43,7 @@
 				</div>
 			</div>
 
-			<div class="ml-9 font-markazi text-2xl">{meter.feetFa.join(' ')}</div>
+			<div class="ml-9 font-markazi text-2xl">{meter.feetFa.join(' ')}</div>
 
 			<div class="ml-9"><em>{meter.nameLat}</em></div>
 
