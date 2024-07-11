@@ -131,7 +131,11 @@
 			feetFa: ['فعولن', 'فعولن', 'فعولن', 'فعل'],
 			nameLat: 'mutaqārib maḥẕūf',
 			nameFa: 'متقارب محذوف',
-			baseMeter: 'mutaqārib'
+			baseMeter: 'mutaqārib',
+			example: {
+				author: 'Firdawsī',
+				url: 'https://ganjoor.net/ferdousi/shahname/sohrab/sh1'
+			}
 		},
 		{
 			feetLat: ['˘¯¯', '˘¯¯', '˘¯¯', '˘¯¯'],
