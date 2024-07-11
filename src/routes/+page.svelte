@@ -53,6 +53,14 @@
 			<div class="ml-9"><em>{meter.nameLat}</em></div>
 
 			<div class="ml-9 font-markazi text-2xl">{meter.nameFa}</div>
+
+			{#if meter.example}
+				<div class="ml-9 text-blue-800 hover:underline">
+					<a href={meter.example.url} rel="noreferrer" target="_blank"
+						>Example ({meter.example.author})</a
+					>
+				</div>
+			{/if}
 		</div>
 	{/each}
 </div>
