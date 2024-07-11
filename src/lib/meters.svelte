@@ -82,7 +82,8 @@
 			feetFa: ['مفاعلن', 'فعلاتن', 'مفاعلن', 'فعلن'],
 			nameLat: 'mujtaṡṡ makhbūn maḥẕūf',
 			nameFa: 'مجتث مخبون محذوف',
-			baseMeter: 'mujtaṡṡ'
+			baseMeter: 'mujtaṡṡ',
+			example: { author: 'Rūdakī', url: 'https://ganjoor.net/roodaki/baghimande/sh45' }
 		},
 		{
 			feetLat: ['˘¯˘¯', '˘˘¯¯', '˘¯˘¯', '˘˘¯¯'],
@@ -96,7 +97,8 @@
 			feetFa: ['مفاعلن', 'فعلاتن', 'مفاعلن', 'فعْلن'],
 			nameLat: 'mujtaṡṡ makhbūn aṣlam',
 			nameFa: 'مجتث مخبون اصلم',
-			baseMeter: 'mujtaṡṡ'
+			baseMeter: 'mujtaṡṡ',
+			example: { author: 'Rūdakī', url: 'https://ganjoor.net/roodaki/baghimande/sh45' }
 		},
 		{
 			feetLat: ['˘¯˘¯', '˘¯˘¯', '˘¯˘¯', '˘¯˘˜'],
@@ -132,10 +134,7 @@
 			nameLat: 'mutaqārib maḥẕūf',
 			nameFa: 'متقارب محذوف',
 			baseMeter: 'mutaqārib',
-			example: {
-				author: 'Firdawsī',
-				url: 'https://ganjoor.net/ferdousi/shahname/sohrab/sh1'
-			}
+			example: { author: 'Firdawsī', url: 'https://ganjoor.net/ferdousi/shahname/sohrab/sh1' }
 		},
 		{
 			feetLat: ['˘¯¯', '˘¯¯', '˘¯¯', '˘¯¯'],
@@ -163,7 +162,8 @@
 			feetFa: ['مفاعیلن', 'مفاعیلن', 'فعولن'],
 			nameLat: 'hazaj maḥẕūf',
 			nameFa: 'هزج محذوف',
-			baseMeter: 'hazaj'
+			baseMeter: 'hazaj',
+			example: { author: 'Gurgānī', url: 'https://ganjoor.net/asad/veysoramin/sh53' }
 		},
 		{
 			feetLat: ['˘¯¯¯', '˘¯¯¯', '˘¯¯¯'],
@@ -177,7 +177,8 @@
 			feetFa: ['مفاعیلن', 'مفاعیلن', 'مفاعیلن', 'مفاعیلن'],
 			nameLat: 'hazaj sālim (muṡamman)',
 			nameFa: 'هزج سالم (مثمن)',
-			baseMeter: 'hazaj'
+			baseMeter: 'hazaj',
+			example: { author: 'Ḥāfiẓ', url: 'https://ganjoor.net/hafez/ghazal/sh1' }
 		},
 		{
 			feetLat: ['˘¯¯¯', '˘¯¯¯', '¯˘¯¯'],
@@ -296,7 +297,8 @@
 			feetFa: ['فاعلاتن', 'مفاعلن', 'فعلن'],
 			nameLat: 'khafīf sālim makhbūn',
 			nameFa: 'خفیف سالم مخبون',
-			baseMeter: 'khafīf'
+			baseMeter: 'khafīf',
+			example: { author: 'Niẓāmī', url: 'https://ganjoor.net/nezami/5ganj/7peykar/sh24' }
 		},
 		{
 			feetLat: ['¯˘¯¯', '˘¯˘¯', '¯˜'],
@@ -345,7 +347,8 @@
 			feetFa: ['فاعلاتن', 'فاعلاتن', 'فاعلن'],
 			nameLat: 'ramal maḥẕūf (musaddas)',
 			nameFa: 'رمل محذوف (مسدس)',
-			baseMeter: 'ramal'
+			baseMeter: 'ramal',
+			example: { author: 'Mawlānā', url: 'https://ganjoor.net/moulavi/masnavi/daftar1/sh1' }
 		},
 		{
 			feetLat: ['¯˘¯¯', '¯˘¯¯', '¯˘¯¯'],
@@ -359,7 +362,8 @@
 			feetFa: ['فاعلاتن', 'فاعلاتن', 'فاعلاتن', 'فاعلن'],
 			nameLat: 'ramal maḥẕūf (muṡamman)',
 			nameFa: 'رمل محذوف (مثمن)',
-			baseMeter: 'ramal'
+			baseMeter: 'ramal',
+			example: { author: 'Ṣā’ib', url: 'https://ganjoor.net/saeb/divan-saeb/ghazalkasa/sh6714' }
 		},
 		{
 			feetLat: ['¯˘¯¯', '¯˘¯¯', '¯˘¯¯', '¯˘¯¯'],
@@ -387,7 +391,8 @@
 			feetFa: ['مفعول', 'مفاعلن', 'فعولن'],
 			nameLat: 'hazaj akhrab maqbūż maḥẕūf',
 			nameFa: 'هزج اخرب مقبوض محذوف',
-			baseMeter: 'hazaj'
+			baseMeter: 'hazaj',
+			example: { author: 'Niẓāmī', url: 'https://ganjoor.net/nezami/5ganj/leyli-majnoon/sh12' }
 		},
 		{
 			feetLat: ['¯¯˘', '˘¯˘¯', '˘¯¯¯', '˜'],
@@ -401,7 +406,8 @@
 			feetFa: ['مفعول', 'مفاعیل', 'مفاعیل', 'فعولن'],
 			nameLat: 'hazaj akhrab makfūf maḥẕūf',
 			nameFa: 'هزج اخرب مکفوف محذوف',
-			baseMeter: 'hazaj'
+			baseMeter: 'hazaj',
+			example: { author: 'Shaykh Bahā’ī', url: 'https://ganjoor.net/bahaee/divan-baha/mokhammas' }
 		},
 		{
 			feetLat: ['¯¯˘', '˘¯¯˘', '¯˘¯¯'],
@@ -485,7 +491,8 @@
 			feetFa: ['مستفعلن', 'مستفعلن', 'مستفعلن', 'مستفعلن'],
 			nameLat: 'rajaz sālim (muṡamman)',
 			nameFa: 'رجز سالم (مثمن)',
-			baseMeter: 'rajaz'
+			baseMeter: 'rajaz',
+			example: { author: 'Mawlānā', url: 'https://ganjoor.net/moulavi/shams/ghazalsh/sh533' }
 		},
 		{
 			feetLat: ['¯¯˘¯', '¯¯˘¯', '¯¯¯˘'],
