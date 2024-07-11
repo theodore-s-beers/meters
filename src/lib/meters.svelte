@@ -1,10 +1,16 @@
 <script lang="ts" context="module">
+	interface ExamplePoem {
+		author: string;
+		url: string;
+	}
+
 	interface Meter {
 		feetLat: string[];
 		feetFa: string[];
 		nameLat: string;
 		nameFa: string;
 		baseMeter: string;
+		example?: ExamplePoem;
 	}
 
 	export const meters: Meter[] = [
