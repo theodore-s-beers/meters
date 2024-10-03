@@ -18,6 +18,19 @@
 <p class="mb-4 ml-6 text-xl">after Thackston’s list</p>
 
 <p class="mb-4">
+	<em>The introduction to Wheeler Thackston’s</em> Millennium of Classical Persian Poetry,
+	<em>
+		which contains his primer on Persian prosody, is also available
+		<a
+			href="thackston-intro.pdf"
+			rel="noreferrer"
+			target="_blank"
+			class="text-blue-800 hover:underline">in PDF</a
+		>.
+	</em>
+</p>
+
+<p class="mb-4">
 	<em
 		>Syllables in “dashes and scoops” should be read left-to-right. The Persian notation is, of
 		course, right-to-left.</em
