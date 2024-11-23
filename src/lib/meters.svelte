@@ -399,7 +399,8 @@
 			feetFa: ['مفعول', 'مفاعلن', 'مفاعیلن', 'فع'],
 			nameLat: 'hazaj akhrab maqbūż sālim azall',
 			nameFa: 'هزج اخرب مقبوض سالم ازل',
-			baseMeter: 'hazaj'
+			baseMeter: 'hazaj',
+			example: { author: 'Kamāl Ismā‘īl', url: 'https://ganjoor.net/kamal/robaeek-kamal/sh22' }
 		},
 		{
 			feetLat: ['¯¯˘', '˘¯¯˘', '˘¯¯˘', '˘¯¯'],
