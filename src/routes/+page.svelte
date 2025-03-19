@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { meters } from '$lib/meters.svelte';
+	import { meters } from "$lib/meters";
 </script>
 
 <svelte:head>
@@ -45,13 +45,13 @@
 </p>
 
 <div class="space-y-6">
-	{#each meters as meter, i}
+	{#each meters as meter, i (meter.nameLat)}
 		<div id={String(i + 1)}>
 			<div class="flex items-center">
 				<div class="w-9">{i + 1}.</div>
 
-				<div class="flex space-x-2 font-gentium">
-					{#each meter.feetLat as foot, j}
+				<div class="font-gentium flex space-x-2">
+					{#each meter.feetLat as foot, j (foot)}
 						<div class="relative top-1.5 text-3xl">{foot}</div>
 
 						{#if j + 1 < meter.feetLat.length}
@@ -61,11 +61,11 @@
 				</div>
 			</div>
 
-			<div class="ml-9 font-markazi text-2xl">{meter.feetFa.join(' ')}</div>
+			<div class="font-markazi ml-9 text-2xl">{meter.feetFa.join(" ")}</div>
 
 			<div class="ml-9"><em>{meter.nameLat}</em></div>
 
-			<div class="ml-9 font-markazi text-2xl">{meter.nameFa}</div>
+			<div class="font-markazi ml-9 text-2xl">{meter.nameFa}</div>
 
 			{#if meter.example}
 				<div class="ml-9 text-blue-800 hover:underline">
