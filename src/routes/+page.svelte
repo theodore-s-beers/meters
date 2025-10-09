@@ -50,7 +50,7 @@
 			<div class="flex items-center">
 				<div class="w-9">{i + 1}.</div>
 
-				<div class="font-gentium flex space-x-2">
+				<div class="flex space-x-2 font-gentium">
 					{#each meter.feetLat as foot, j (foot)}
 						<div class="relative top-1.5 text-3xl">{foot}</div>
 
@@ -61,11 +61,11 @@
 				</div>
 			</div>
 
-			<div class="font-markazi ml-9 text-2xl">{meter.feetFa.join(" ")}</div>
+			<div class="ml-9 font-markazi text-2xl">{meter.feetFa.join(" ")}</div>
 
 			<div class="ml-9"><em>{meter.nameLat}</em></div>
 
-			<div class="font-markazi ml-9 text-2xl">{meter.nameFa}</div>
+			<div class="ml-9 font-markazi text-2xl">{meter.nameFa}</div>
 
 			{#if meter.example}
 				<div class="ml-9 text-blue-800 hover:underline">

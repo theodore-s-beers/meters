@@ -20,6 +20,7 @@ export default ts.config(
 		languageOptions: {
 			parserOptions: { parser: ts.parser },
 		},
+		rules: { "svelte/no-navigation-without-resolve": "warn" },
 	},
 	{ ignores: ["build/", ".svelte-kit/", "dist/"] },
 );
