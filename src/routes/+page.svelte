@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from "$app/paths";
 	import { meters } from "$lib/meters";
 </script>
 
@@ -22,7 +23,7 @@
 	<em>
 		which contains his primer on Persian prosody, is also available
 		<a
-			href="thackston-intro.pdf"
+			href={asset("/thackston-intro.pdf")}
 			rel="noreferrer"
 			target="_blank"
 			class="text-blue-800 hover:underline">in PDF</a
