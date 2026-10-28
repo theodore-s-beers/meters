@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { asset } from "$app/paths";
-	import { meters } from "$lib/meters";
+	import { meters } from "#lib/meters.ts";
 </script>
 
 <svelte:head>
@@ -23,7 +23,7 @@
 	<em>
 		which contains his primer on Persian prosody, is also available
 		<a
-			href={asset("/thackston-intro.pdf")}
+			href={asset("thackston-intro.pdf")}
 			rel="noreferrer"
 			target="_blank"
 			class="text-blue-800 hover:underline">in PDF</a
