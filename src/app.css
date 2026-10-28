@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-	--font-gentium: "Gentium Plus", serif;
-	--font-markazi: "Markazi Text", serif;
-	--font-noto: "Noto Serif", serif;
+  --font-gentium: "Gentium Plus", serif;
+  --font-markazi: "Markazi Text", serif;
+  --font-noto: "Noto Serif", serif;
 }

@@ -1,41 +1,39 @@
 {
-	"name": "meters",
-	"version": "0.1.0",
-	"private": true,
-	"type": "module",
-	"imports": {
-		"#lib/*": "./src/lib/*"
-	},
-	"scripts": {
-		"build": "vite build",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"deploy": "pnpm run build && gh-pages -td build",
-		"dev": "vite dev",
-		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint .",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@eslint/js": "^10.0.1",
-		"@sveltejs/adapter-static": "^4.0.0",
-		"@sveltejs/kit": "^3.1.0",
-		"@sveltejs/vite-plugin-svelte": "^7.3.1",
-		"@tailwindcss/vite": "^4.3.3",
-		"@types/node": "^26.6.5",
-		"eslint": "^10.13.0",
-		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-svelte": "^3.23.1",
-		"gh-pages": "^6.3.0",
-		"globals": "^17.13.0",
-		"prettier": "^3.9.10",
-		"prettier-plugin-svelte": "^4.1.1",
-		"prettier-plugin-tailwindcss": "^0.8.1",
-		"svelte": "^5.57.3",
-		"svelte-check": "^4.7.7",
-		"tailwindcss": "^4.3.3",
-		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.72.1",
-		"vite": "^8.3.5"
-	}
+  "name": "meters",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  },
+  "scripts": {
+    "build": "vite build",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "deploy": "pnpm run build && gh-pages -td build",
+    "dev": "vite dev",
+    "format": "oxfmt",
+    "lint": "oxfmt --check && eslint .",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@sveltejs/adapter-static": "^4.0.0",
+    "@sveltejs/kit": "^3.1.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^3.23.1",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.13.0",
+    "oxfmt": "^0.75.0",
+    "svelte": "^5.57.3",
+    "svelte-check": "^4.7.7",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.5"
+  }
 }
