@@ -70,7 +70,7 @@
 
       {#if meter.example}
         <div class="ml-9 text-blue-800 hover:underline">
-          <a href={meter.example.url} rel="noreferrer" target="_blank"
+          <a href={meter.example.url} rel="external noreferrer" target="_blank"
             >Example ({meter.example.author})</a
           >
         </div>
